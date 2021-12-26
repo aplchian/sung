@@ -1,5 +1,14 @@
-<script>
-	import '../app.css';
+<script lang="ts">
+    import Nav from '$lib/nav/Nav.svelte';
+    import '../app.css';
 </script>
 
-<slot />
+<Nav />
+
+<main>
+    <slot />
+</main>
+
+<footer>
+
+</footer>
