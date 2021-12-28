@@ -3,22 +3,24 @@
 		<div class="relative flex items-center justify-between h-16">
 			<div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
 				<div class="flex-shrink-0 flex items-center">
-					<h1 class="block h-8 w-auto text-slate-100 text-3xl">སུང</h1>
+					<a href="/">
+						<h1 class="block h-8 w-auto text-slate-100 text-3xl">སུང</h1>
+					</a>
 				</div>
 				<div class="hidden sm:block sm:ml-6">
 					<div class="flex space-x-4">
 						<!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
 						<a
-							href="#"
+							href="/events/new"
 							class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium"
-							aria-current="page">Selected</a
+							aria-current="page">Events</a
 						>
 
-						<a
-							href="#"
-							class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-							>Not Selected</a
-						>
+						<!--						<a-->
+						<!--							href="#"-->
+						<!--							class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"-->
+						<!--							>Not Selected</a-->
+						<!--						>-->
 					</div>
 				</div>
 			</div>
@@ -30,16 +32,16 @@
 		<div class="px-2 pt-2 pb-3 space-y-1">
 			<!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
 			<a
-				href="#"
+				href="/events/new"
 				class="bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium"
 				aria-current="page">Selected</a
 			>
 
-			<a
-				href="#"
-				class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-				>Not Selected</a
-			>
+			<!--			<a-->
+			<!--				href="#"-->
+			<!--				class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"-->
+			<!--				>Not Selected</a-->
+			<!--			>-->
 		</div>
 	</div>
 </nav>
