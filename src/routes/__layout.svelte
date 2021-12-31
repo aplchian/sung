@@ -1,22 +1,35 @@
 <script context="module">
-	export async function load({ page, session }) {
-		// console.log('session.user', session.user)
-		// if (session.user === null) {
-		// 	return {
-		// 		redirect: '/',
-		// 		status: 302
-		// 	};
-		// }
-		return { props: {} };
+	export async function load({ session }) {
+		return {
+			props: {
+				user: session.user
+			}
+		};
 	}
 </script>
 
-<script lang="ts">
+<script>
 	import Nav from '$lib/nav/Nav.svelte';
 	import '../app.css';
+	export let user;
 </script>
 
-<Nav />
+
+<!--<script context="module">-->
+<!--	export async function load({ page, session }) {-->
+<!--		// console.log('session.user', session.user)-->
+<!--		// if (session.user === null) {-->
+<!--		// 	return {-->
+<!--		// 		redirect: '/',-->
+<!--		// 		status: 302-->
+<!--		// 	};-->
+<!--		// }-->
+<!--		return { props: {} };-->
+<!--	}-->
+<!--</script>-->
+
+
+<Nav user={user}  />
 
 <main>
 	<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
