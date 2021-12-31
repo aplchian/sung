@@ -1,3 +1,16 @@
+<script context="module">
+	export async function load({ page, session }) {
+		// console.log('session.user', session.user)
+		// if (session.user === null) {
+		// 	return {
+		// 		redirect: '/',
+		// 		status: 302
+		// 	};
+		// }
+		return { props: {} };
+	}
+</script>
+
 <script lang="ts">
 	import Nav from '$lib/nav/Nav.svelte';
 	import '../app.css';
