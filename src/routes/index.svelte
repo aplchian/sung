@@ -9,7 +9,7 @@
 </script>
 
 <script>
-	import { supabase } from '../supabaseClient';
+	import { supabase } from '$lib/supabaseClient';
 	import { user } from '../sessionStore';
 
 	let loading = false;

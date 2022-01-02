@@ -34,6 +34,7 @@
 		"@supabase/supabase-js": "^1.29.1",
 		"@tailwindcss/forms": "^0.4.0",
 		"cookie": "^0.4.1",
-		"node-fetch": "^3.1.0"
+		"node-fetch": "^3.1.0",
+		"ramda": "^0.27.1"
 	}
 }
