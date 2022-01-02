@@ -1,8 +1,8 @@
-# སུང
+# གསུང
 
 Application to archive teachings.
 
-[སུང](https://sung.vercel.app/)
+[གསུང](https://sung.vercel.app/)
 
 ## Developing
 
