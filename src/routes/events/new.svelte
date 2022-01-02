@@ -31,7 +31,7 @@
 	};
 </script>
 
-<h1 class="text-center text-2xl mt-16">Add New Event</h1>
+<h1 class="text-center  mt-16 text-black text-lg font-large">Add New Record</h1>
 
 <div class="mt-4">
 	<label for="date" class="block text-sm font-medium text-gray-700">Date</label>
