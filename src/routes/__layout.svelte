@@ -16,6 +16,7 @@
 	let user;
 
 	userSession.subscribe((x) => {
+		console.log('x', x)
 		user = x;
 	});
 </script>
